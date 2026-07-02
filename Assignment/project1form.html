@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial scale="1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>University Registration Form</h1>
+        <br><br>
+        <p>Please fill out the form to register</p>
+        <br><br>
+        <hr>
+        <h2>Personal Details</h2>
+        <form>
+            <label for=" name">First Name</label>
+            <input type="text"name="name" id="name" placeholder="e.g: Arjun">
+            <br><br>
+             <label for="surname">Last Name</label>
+            <input type="text"name="surname" id="surname" placeholder="e.g: Kumar">
+            <br><br>
+             <label for="dob">DOB:</label>
+            <input type="date"name="dob" id="dob">
+            <br><br>
+            <label>Gender</label>
+            <br><br>
+             <label for="gender">Male</label>
+            <input type="radio"name="gender" id="male">
+            <br><br>
+             <label for="gender">Female</label>
+            <input type="radio"name="gender" id="female">
+            <br><br>
+             <label for="gender">other</label>
+            <input type="radio"name="gender" id="other">
+            
+            <h3>Upload your photo</h3>
+           
+            <input type="file"name="file">
+            <hr>
+            <h4>Contact Information</h4>
+            <label for=" email">Email Address</label>
+            <input type="email"name="email" id="email" placeholder="e.g: you@exapmle.com">
+            <br><br>
+             <label for="phoneno">Phone Number</label>
+            <input type="number"name="phoneno" id="phoneno" placeholder="e.g: 9876543210">
+            <br><br>
+            <label>MAiling Address</label>
+            <br>
+            <textarea name="Adress" id="Address" rows="10" cols="30" placeholder="Street Address, city, State, Zip code"></textarea>
+            <hr>
+            <h2>Academic Information</h2>
+            
+            <label>Select your course</label>
+            <br>
+            <select name="Course" id="Course">
+                <option value="CSE">CSE</option>
+                 <option value="COE">COE</option>
+                <option value="ENC">ENC</option>
+                <option value="ECE">ECE</option>
+                <br><br>
+            </select>
+                            <br><br>
+
+            <label>Extracurricular Activities</label>
+            <br>
+            <label for="Activity">Sports</label>
+            <input type="checkbox" name="Activities" id="Activities" value="Sports">
+            <br>
+            <label for="Activity">Music & Arts</label>
+            <input type="checkbox" name="Activities" id="Music & Arts" value="Music & Arts">
+            <br>
+            <label for="Activity">Technology Clubs</label>
+            <input type="checkbox" name="Activities" id="Technology Clubs" value="Technology Clubs">
+            <br>
+            <label for="Activity">Volunteering</label>
+            <input type="checkbox" name="Activities" id="Volunteering" value="Volunteering">
+            <br><br>
+            <hr>
+            <h2>Create your Account</h2>
+           
+            <label for="pass">Create a password</label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+            <label for="SQ">Sequrity question</label>
+             <select name="SQ" id="SQ">
+                <option value="Book">CSE</option>
+                 <option value="Subject">COE</option>
+                <option value="Car">ENC</option>
+                <option value="Job">ECE</option>
+            </select>
+            <br><br>
+            <label for="SA">Security Answer</label>
+            <input type="text" name="SA" id="SA">
+            <br><br>
+            <label for="T&C">I agree terms and condition</label>
+            <input type="checkbox" name="T&C" id="T&C">
+            <br><br>
+            <hr>
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+
+
+
+        </form>
+    
+    </body>
+    <footer>
+
+    </footer>
+</html>
